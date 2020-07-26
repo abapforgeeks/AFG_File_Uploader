@@ -1,0 +1,18 @@
+[
+{ "STATUS":"1",
+  "LANGUAGE":"E", 
+  "DESCRIPTION":"Created"
+}, 
+{ "STATUS":"2",
+  "LANGUAGE":"E", 
+  "DESCRIPTION":"Closed"
+}, 
+{ "STATUS":"3",
+  "LANGUAGE":"E", 
+  "DESCRIPTION":"Approved"
+},
+{ "STATUS":"4",
+  "LANGUAGE":"E", 
+  "DESCRIPTION":"Pending"
+}
+]
