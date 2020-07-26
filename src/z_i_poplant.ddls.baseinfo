@@ -3,14 +3,10 @@
 {
 "FROM":
 [
-"ZPURCHASE_DOC"
+"ZPO_PLANT"
 ],
 "ASSOCIATED":
-[
-"Z_I_POPRIORITY",
-"Z_I_POSTATUS",
-"Z_I_PURCHASEDOCITEM"
-],
+[],
 "BASE":
 [],
 "ANNO_REF":
