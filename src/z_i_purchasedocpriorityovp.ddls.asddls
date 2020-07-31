@@ -3,7 +3,7 @@
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Purchase Documents On Priority'
-//@VDM.viewType: #CONSUMPTION
+//@VDM.viewType: #CONSUMPTION"Create this as consumption view as it is
 define view Z_I_PurchaseDocPriorityOVP
   as select from Z_I_PurchaseDoc
   association [0..*] to Z_I_POPriority as _Priority on $projection.Priority = _Priority.priority
@@ -13,9 +13,10 @@ define view Z_I_PurchaseDocPriorityOVP
   key PurchaseDoc,
       Description as PurchaseDescription,
       POStatus,
-      _Status[1:language = 'E'].description   as StatusText,
+      _Status.description   as StatusText,
       Priority,
-      _Priority[1:language = 'E'].description as PriorityText,
+      _Priority.description as PriorityText,
+      @Aggregation.default: #SUM
        1  as TotalPODocuments,
       _Priority,
       _Status

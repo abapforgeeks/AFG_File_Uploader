@@ -3,7 +3,7 @@
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Purchase Doc Required for Approval'
-//@VDM.viewType: #COMPOSITE
+//@VDM.viewType: #COMPOSITE"As we are selecting from Interface view|
 define view Z_I_PurchaseDocApprList as select from Z_I_PurchaseDocTotalPrice {
     //Z_I_PurchaseDocTotalPrice
     key PurchaseDoc,
