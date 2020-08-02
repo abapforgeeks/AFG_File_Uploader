@@ -1,0 +1,4 @@
+@EndUserText.label: 'Purchase Document OVP Service Definition'
+define service Z_SD_PurchaseDocOVP {
+  expose Z_C_OVPFilter;
+}

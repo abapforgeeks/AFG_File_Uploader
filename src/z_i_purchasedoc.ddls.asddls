@@ -7,8 +7,8 @@
 define view Z_I_PurchaseDoc
   as select from zpurchase_doc
   association[0..*] to Z_I_PurchaseDocItem as _POItems on $projection.PurchaseDoc = _POItems.PurchaseDoc
-  association[0..*] to Z_I_POStatus as _Status on $projection.POStatus = _Status.status
-  association[0..*] to Z_I_POPriority as _Priority on $projection.Priority = _Priority.priority
+  association[0..1] to Z_I_POStatusMain as _Status on $projection.POStatus = _Status.status
+  association[0..1] to Z_I_POPriorityMain as _Priority on $projection.Priority = _Priority.priority
 {
       @ObjectModel.text.element: ['Description']
   key purchase_doc as PurchaseDoc,
