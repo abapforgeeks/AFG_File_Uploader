@@ -1,0 +1,34 @@
+[
+{ "STATUS":"1",
+  "LANGUAGE":"E", 
+  "DESCRIPTION":"Created"
+}, 
+{ "STATUS":"2",
+  "LANGUAGE":"E", 
+  "DESCRIPTION":"Closed"
+}, 
+{ "STATUS":"3",
+  "LANGUAGE":"E", 
+  "DESCRIPTION":"Approved"
+},
+{ "STATUS":"4",
+  "LANGUAGE":"E", 
+  "DESCRIPTION":"Pending"
+},
+{ "STATUS":"1",
+  "LANGUAGE":"DE", 
+  "DESCRIPTION":"erstellt"
+}, 
+{ "STATUS":"2",
+  "LANGUAGE":"DE", 
+  "DESCRIPTION":"geschlossen"
+}, 
+{ "STATUS":"3",
+  "LANGUAGE":"DE", 
+  "DESCRIPTION":"genehmigt"
+},
+{ "STATUS":"4",
+  "LANGUAGE":"DE", 
+  "DESCRIPTION":"steht aus"
+}
+]
