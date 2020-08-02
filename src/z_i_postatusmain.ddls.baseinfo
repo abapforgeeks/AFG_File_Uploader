@@ -3,11 +3,11 @@
 {
 "FROM":
 [
-"ZPO_STATUS"
+"ZPO_STATUS_MAIN"
 ],
 "ASSOCIATED":
 [
-"Z_I_POSTATUSMAIN"
+"Z_I_POSTATUS"
 ],
 "BASE":
 [],
