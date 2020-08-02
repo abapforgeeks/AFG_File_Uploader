@@ -10,6 +10,7 @@ define view Z_I_PurchaseDocPriorityOVP
   association [0..*] to Z_I_POStatus   as _Status   on $projection.POStatus = _Status.status
 {
       //Z_I_PurchaseDoc
+      @Consumption.semanticObject: 'PurchasingDocument'
   key PurchaseDoc,
       Description as PurchaseDescription,
       POStatus,

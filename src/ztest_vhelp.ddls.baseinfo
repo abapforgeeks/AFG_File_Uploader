@@ -3,12 +3,10 @@
 {
 "FROM":
 [
-"ZPO_PRIORITY"
+"Z_I_PURCHASEDOC"
 ],
 "ASSOCIATED":
-[
-"Z_I_POPRIORITYMAIN"
-],
+[],
 "BASE":
 [],
 "ANNO_REF":

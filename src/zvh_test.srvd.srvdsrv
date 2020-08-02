@@ -1,0 +1,5 @@
+@EndUserText.label: 'Valuehelp test'
+define service Zvh_test {
+  expose ztest_vhelp;
+  expose Z_I_POPriorityMain;
+}
